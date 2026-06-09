@@ -1,0 +1,7 @@
+[project]
+name = "algolaser"
+version = "0.1.0"
+description = "Ressourcen für algorithmische Generierung und Laser-Design"
+requires-python = ">=3.8"
+
+[tool.uv]

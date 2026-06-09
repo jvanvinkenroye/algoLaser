@@ -4,28 +4,41 @@ Ressourcen für algorithmische Generierung und Laser-Design.
 
 ## Installation & Verwendung
 
-### MkDocs starten
+### Mit MkDocs Runner
 
-1. MkDocs installieren:
+Das Projekt enthält ein Bash-Script für häufige MkDocs-Operationen:
+
 ```bash
-uv pip install mkdocs mkdocs-material
+# MkDocs und Dependencies installieren
+./mkdocs-runner.sh install
+
+# Entwicklungsserver starten
+./mkdocs-runner.sh serve
+
+# Website bauen (statische HTML)
+./mkdocs-runner.sh build
+
+# Aufräumen
+./mkdocs-runner.sh clean
+
+# Hilfe anzeigen
+./mkdocs-runner.sh help
 ```
 
-2. Entwicklungsserver starten:
+### Manuell mit uv
+
 ```bash
+# Installation
+uv add mkdocs mkdocs-material --dev
+
+# Entwicklungsserver
 uv run mkdocs serve
-```
 
-3. Browser öffnen: `http://localhost:8000`
-
-### MkDocs bauen
-
-Statische HTML-Seite generieren:
-```bash
+# Website bauen
 uv run mkdocs build
 ```
 
-Die Website wird im `site/` Verzeichnis generiert.
+Browser öffnen: `http://localhost:8000`
 
 ## Struktur
 

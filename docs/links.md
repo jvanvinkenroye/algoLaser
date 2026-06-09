@@ -1,5 +1,11 @@
 # Ressourcen
 
+## Excalidraw Board
+
+- **[Excalidraw Workspace](https://excalidraw-bpliv.sprites.app/#room=190c81079d4a5ce2cddb,qE3LJoyrlrr3G_Sv6C3bZg)** — Hier kommen Links und Beispiele hin
+
+---
+
 ## Generatoren
 
 Werkzeuge und Projekte für die Erzeugung einzigartiger, algorithmischer Designs:
