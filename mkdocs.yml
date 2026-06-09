@@ -1,0 +1,21 @@
+site_name: AlgoLaser
+site_description: Ressourcen für algorithmische Generierung und Laser-Design
+theme:
+  name: material
+  language: de
+  palette:
+    - scheme: light
+      primary: indigo
+      accent: indigo
+
+nav:
+  - Home: index.md
+  - Links: links.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - md_in_html
+  - admonition
+  - pymdownx.details
